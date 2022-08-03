@@ -4,7 +4,7 @@ function HeaderBenner() {
     return <div>
       {
         show &&
-        <div className="w-full bg-orange-400 h-16 antialiased">
+        <div className="w-full bg-[#025159] h-16 antialiased border-b-[#025939]">
           <div className="flex columns-5 items-center h-full">
             <div className="flex-none grow col-span-1"></div>
             <a href="/read1">
