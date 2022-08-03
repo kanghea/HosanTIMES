@@ -9,7 +9,7 @@ function HeaderBenner() {
             <div className="flex-none grow col-span-1"></div>
             <a href="/read1">
               <span className="text-white mt-3 col-span-1 pl-10">
-                  <strong>대구 부동산 연구소 상담문의 바로가기 ➜</strong>
+                  <strong>종로학원 학부모 모드 바로가기 ➜</strong>
               </span>
             </a>
             <a href="/read1">  
