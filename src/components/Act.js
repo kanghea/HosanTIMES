@@ -14,8 +14,8 @@ function Act() {
       <div className="w-full h-full flex mb-36 gap-10 mt-5 xl:px-26 justify-center transition-all flex-wrap">
         <a className='w-[525px] box-border h-full '>
           <div className="mt-5 w-[525px] bg-gray-100 hover:bg-blue-400 hover:mt-0 hover:mb-5 duration-200 h-[632px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400 ">
-            <div className="text-[40px] leading-[60px] font-semibold">매물등록</div>
-            <div className="text-lg font-normal pt-3">소장이 하나하나 검토해서 신뢰성있는 매물 多<br></br> 인공지능 가격분석으로 합리적인 가격까지</div>
+            <div className="text-[40px] leading-[60px] font-semibold">숙제 자가진단</div>
+            <div className="text-lg font-normal pt-3">학생들이 스스로 숙제를 하고<br></br>그 추이를 기록할수 있는 기능입니다!</div>
             <div className="pt-5">
               <button className="px-3 py-3 w-32 h-auto border-2 rounded-3xl" onClick={() => { setAct1(true); }}>자세히보기➜</button>
             </div>
@@ -24,8 +24,8 @@ function Act() {
         </a>
         <a href="/" className='w-[525px] h-full'>
           <div className="mt-5 w-[525px] bg-gray-100 hover:bg-green-400 hover:mt-0 hover:mb-5 duration-200 h-[632px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400">
-            <div className="text-[40px] leading-[60px] font-semibold">지도기반 매물 표시 </div>
-            <div className="text-lg font-normal pt-3">신뢰성 높은 매물과 합리적인 가격과<br></br> 가독성 높은 지도 UI</div>
+            <div className="text-[40px] leading-[60px] font-semibold">출결 관리 </div>
+            <div className="text-lg font-normal pt-3">수업시작 20분전에 알림을 해줍니다!<br></br>피치못할 사정으로 등원하지 못할 경우<br></br>그 사유를 적으면 자동으로 결석처리가 됩니다.</div>
             <div className="pt-5">
               <button className="px-3 py-3 w-32 h-auto border-2 rounded-3xl" onClick={() => {setAct2(true);}}>자세히보기➜</button>
             </div>

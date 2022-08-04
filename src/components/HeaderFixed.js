@@ -6,7 +6,7 @@ function HeaderFixed() {
         <div className="w-full h-full flex grow-0 bg-gray-50/80 justify-between items-center lg:px-52" id="main-header">
           <div className="flex-none basis-48 w-auto">
             <a href="/">
-              <img alt="logo" src="img/logo.png" className='h-full'/>
+              <img alt="logo" src="img/jongrologo.png" className='h-[75px] w-auto'/>
             </a>
           </div>
           <div className="flex-none basis-96 w-72">

@@ -1,10 +1,12 @@
 import React, {useState} from 'react';
+import './HeaderBenner.css';
+
 function HeaderBenner() {
     const [show, setShow] = useState(true);
     return <div>
       {
         show &&
-        <div className="w-full bg-[#077340] h-16 antialiased border-b-[#025939]">
+        <div className='jongro'>
           <div className="flex columns-5 items-center h-full">
             <div className="flex-none grow col-span-1"></div>
             <a href="/read1">
