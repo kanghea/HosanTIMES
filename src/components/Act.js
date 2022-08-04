@@ -80,12 +80,13 @@ function Act() {
                 {act11
                     ?<div> 
                       <div className='w-auto h-auto mt-5 block overflow-y-scroll overflow-x-hidden'>
-                        <div>Content</div>
-                        <div>Content</div>
+                        <div>숙제 확인하는 이미지</div>
+                        <div>...</div>
                       </div>
                     </div>
                     :<div className='w-auto h-auto mt-5 block overflow-y-scroll overflow-x-hidden'>
-                      <div>content?</div>
+                      <div>숙제 체크하는 이미지</div>
+                      <div>...</div>
                     </div>} 
               </div>
             </div>
