@@ -34,8 +34,8 @@ function Act() {
         </a>
         <a href="/" className='w-[525px] h-full'>
           <div className="mt-5 bg-gray-100 hover:bg-yellow-400 hover:mt-0 hover:mb-5 duration-200 h-[632px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400 ">
-            <div className="text-[40px] leading-[60px] font-semibold">발빠른 부동산 이슈</div>
-            <div className="text-lg font-normal pt-3">핵심적인 부동산 뉴스들만 콕콕!<br></br>알림신청으로 남들보다 앞서가세요!</div>
+            <div className="text-[40px] leading-[60px] font-semibold">월말평가 성적관리</div>
+            <div className="text-lg font-normal pt-3">월말평가 점수를 기록하고<br></br>같은 학년 평균과 등수를 확인할 수 있습니다.</div>
             <div className="pt-5">
               <div className="px-3 py-3 w-32 h-auto border-2 rounded-3xl">자세히보기➜</div>
             </div>
@@ -43,8 +43,8 @@ function Act() {
         </a>
         <a href="/" className='w-[525px] h-full'>
           <div className="mt-5 w-[525px] bg-gray-100 hover:bg-red-400 hover:mt-0 hover:mb-5 duration-200 h-[632px] rounded-[40px] p-10 hover:text-white hover:border-white border-stone-400 ">
-            <div className="text-[40px] leading-[60px] font-semibold">건물주모드</div>
-            <div className="text-lg font-normal pt-3">건물주님들을 위한 핵심 기능!<br></br>대.부.연이 건물주 임차관리를 돕습니다</div>
+            <div className="text-[40px] leading-[60px] font-semibold">반별 시간별 학생관리</div>
+            <div className="text-lg font-normal pt-3">반별 시간별 학생의 정보를 열람하고<br></br>그 정보를 수정할 수 있습니다.</div>
             <div className="pt-5">
               <div className="px-3 py-3 w-32 h-auto border-2 rounded-3xl">자세히보기➜</div>
             </div>
@@ -56,17 +56,17 @@ function Act() {
           <div className='z-10 w-full h-full bg-black/70 fixed top-0 left-0 flex justify-center items-center'>
             <div className='flex w-[720px] h-[600px] p-8 bg-white rounded-[40px]'>
               <div className='absolute w-[640px] border-b-gray-400'>
-                <div className='text-2xl mb-6 font-semibold'>매물등록</div>
+                <div className='text-2xl mb-6 font-semibold'>숙제 자가진단</div>
                 <ul className='flex gap-12 text-xl text-gray-400 border-b-[1px] border-gray-400 font-[550] pb-5'>
                   <li className= 'hover:text-black focus:text-black cursor-pointer' onClick={()=>{setAct11(true);}}>
-                    {act11 ? <div className='text-black'>간편한 매물등록</div>
-                      : <div>간편한 매물등록</div>}
+                    {act11 ? <div className='text-black'>숙제 확인하기</div>
+                      : <div>숙제 확인하기</div>}
             
                   </li>
                   <li className='hover:text-black cursor-pointer' onClick={()=>{setAct11(false);}}>
                     <button className='focus:text-black'>
-                      {act11 ? <div>철저한 매물관리</div>
-                      : <div className='text-black'>철저한 매물관리</div>}
+                      {act11 ? <div>숙제 체크하기</div>
+                      : <div className='text-black'>숙제 체크하기</div>}
                     </button>
                   </li >
                   <button type="button" className="flex-none col-span-1 text-gray-400 hover:text-gray-800 ml-auto" onClick={() => {

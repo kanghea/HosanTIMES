@@ -4,6 +4,7 @@ import Title from './components/Title';
 import Act from './components/Act';
 import Header from './components/Header';
 import HeaderFixed from './components/HeaderFixed';
+import Last from "./components/last";
 
 function Main() {
     const [navbar, setNavbar] = useState(true);
@@ -21,6 +22,7 @@ function Main() {
             { navbar ? <Header /> : <HeaderFixed /> }
             <Title />
             <Act />
+            <Last/>
         </div>
     );
   }
