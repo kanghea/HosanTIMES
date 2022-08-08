@@ -1,4 +1,5 @@
 import './login.css';
+import {useState} from 'react';
 
 function Login() {
     const [id, setId] = useState(false);
@@ -33,6 +34,12 @@ function Login() {
                         <a href='' className='hover:text-slate-500'>비밀번호를 잊어버리셨나요?</a>
                     </div>
                 </section>
+                <script>
+                    <var>
+                        
+                    </var>
+                </script>
+
             </div>
         </div>
     )
