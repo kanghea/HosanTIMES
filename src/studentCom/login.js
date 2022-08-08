@@ -31,13 +31,13 @@ function Login() {
                         </div>
                     </from>
                     <div class="caption">
-                        <a href='' className='hover:text-slate-500'>비밀번호를 잊어버리셨나요?</a>
+                        <a href='/' className='hover:text-slate-500'>비밀번호를 잊어버리셨나요?</a>
                     </div>
                 </section>
                 <script>
-                    <var>
+                    if (setId == true !! setPw == true) {
                         
-                    </var>
+                    }    
                 </script>
 
             </div>
