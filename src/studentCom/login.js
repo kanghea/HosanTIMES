@@ -27,19 +27,13 @@ function Login() {
                             <label for='pw'>password</label>
                         </div>
                         <div class="btn-area">
-                            <button id='btn' type='submit'>로그인</button>
+                            <button id='btn' type='submit' onClick={() => {if(id,pw == true){alert('성공')} else{alert('실패')}}}>로그인</button>
                         </div>
                     </from>
                     <div class="caption">
                         <a href='/' className='hover:text-slate-500'>비밀번호를 잊어버리셨나요?</a>
                     </div>
                 </section>
-                <script>
-                    if (setId == true !! setPw == true) {
-                        
-                    }    
-                </script>
-
             </div>
         </div>
     )

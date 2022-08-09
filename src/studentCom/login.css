@@ -32,6 +32,11 @@
     color: #999;
     transition: all .5s ease;
 }
+.int-area label.warnign {
+    color: red !important;
+    animation: warning .3s ease;
+    animation-iteration-count: 3;
+}
 .int-area input:focus + label,
 .int-area input:valid + label {
     top: -2px;

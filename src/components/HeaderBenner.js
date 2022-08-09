@@ -11,7 +11,7 @@ function HeaderBenner() {
             <div className="flex-none grow col-span-1"></div>
             <a href="/read1">
               <span className="text-white mt-3 col-span-1 pl-10">
-                  <strong>종로학원 학부모 모드 바로가기 ➜</strong>
+                  <strong>새로 방문하신 학부모님이시라면? ➜</strong>
               </span>
             </a>
             <a href="/read1">  
