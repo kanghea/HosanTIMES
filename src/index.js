@@ -25,6 +25,7 @@ root.render(
     </BrowserView>
     <MobileView>
       <Route path="/" element={<MainM />} />
+      
     </MobileView>
   </Router>
 );
