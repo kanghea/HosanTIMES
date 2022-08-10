@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+import "./README.css"
+<div class="header">
+ <h3>종로학원의 학생관리 시스템</h3> 
+ <h3>종로연구소(JongroEdu)</h3>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div class="student">
+ <h1>1. 학생모드</h1>
+ <p> 학생모드에서는 등원과 숙제, 성적관리를 지원합니다.<br/>
+ 핵심적인 기능 중 하나는 바로 상점관리입니다.<br/>
+ 학생이 등원하거나 숙제를 완료하고 성적(상대적인)에 따라서 상점이 가산되고<br/>
+ 반대로 지각하거나 숙제를 하지 않으면 그 비율에 따라서 감점됩니다.<br/>
+ 학생들은 위 시스템을 통해서 더 나은 결과를 만들 수 있게 됩니다.<br/>
 
-## Available Scripts
+  점수가 중요한 이유.<br/>
+ 점수에 따라서 티어(등급)가 결정됩니다.<br/>
+ 학원 전체에서 상위 5명까지 챌린저 티어<br/>
+ 상위 10%는 다이아 티어<br/>
+ 상위 30%는 골드 티어<br/>
+ 상위 50%는 실버 티어<br/>
+ 그 이하는 브론즈티어로 정의됩니다.<br/>
+ 고등학교의 등급제를 미리 체험할 수 있으며<br/>
+ 이러한 티어제도에 의해서 학생들은 경쟁심과 향상성을 기를 수 있게 됩니다.<br/>
 
-In the project directory, you can run:
+  저희 종로학원은 1년에 한번 상점잔치를 진행합니다.<br/>
+ 말 그대로 상점이 화폐가 되어 여러가지 물건들을 구매할 수 있지요</p>
+</div>
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div class="teacher">
+ 2. 선생님모드
+ 선생님모드는 종로학원의 선생님들을 지원하기 위한 채널입니다.
+</div>
+<div class="parents">
+ 3. 학부모모드
+</div>
