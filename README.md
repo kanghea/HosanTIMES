@@ -1,3 +1,4 @@
+import "./README.css"
 <div class="header">
  <h3>종로학원의 학생관리 시스템</h3> 
  <h3>종로연구소(JongroEdu)</h3>
