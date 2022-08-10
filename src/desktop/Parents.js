@@ -1,4 +1,4 @@
-function parents() {
+function Parents() {
   return(
     <div>
       <div>
