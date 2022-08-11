@@ -10,7 +10,6 @@ import Teacher from './desktop/teacher';
 import Parents from './desktop/Parents';
 import MainM from './mobile/mainm';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
@@ -24,8 +23,7 @@ root.render(
       </Routes>
     </BrowserView>
     <MobileView>
-      <Route path="/" element={<MainM />} />
-      
+      <Route path="/" element={<MainM/>}/>
     </MobileView>
   </Router>
 );

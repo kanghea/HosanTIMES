@@ -1,24 +1,21 @@
-setTimeout(function MainM() {
+import './mainm.css';
+import {useState} from 'react';
+
+function MainM() {
+    const [student, setStudent] = useState(false);
     return(
+        
         <div>
-            <div class="todo">
-                <div className='text-white'>
-                    <img alt="logo" src="img/jongrologo.png" className='h-20 w-auto' />
-                    <div className='text-center mt-3'>
-                        <div className='p-2 bg-slate-900 border-2 border-white rounded-[40px] mt-2'>
-                            학생모드
-                        </div>
-                        <div className='p-2 bg-slate-900 border-2 border-white rounded-[40px] mt-2'>
-                            선생님모드
-                        </div>
-                        <div className='p-2 bg-slate-900 border-2 border-white rounded-[40px] mt-2'>
-                            학부모모드  
-                        </div>
-                    </div>
+            <div>
+                <div className='bg-white w-full h-10 p-1 shadow-sm fixed'>
+                    <img src='img/jongrologo3.png' className='h-8 left-0'/>
+                </div>
+                <div className='w-full bottom-0 h-11 fixed flex justify-between px-10 text-slate-400 bg-black items-center'>
+                    <span><div>학생</div></span><span><div>선생님</div></span><span><div>학부모</div></span>
                 </div>
             </div>
         </div>
     )
-}, 3000);
+}
 
 export default MainM;
