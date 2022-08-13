@@ -4,6 +4,88 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap');
 
-body { 
-    font-family: 'IBM Plex Sans KR', sans-serif;
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
+body { 
+    font-family: 'Chosunilbo_myungjo';
+    margin: 40px;
+    background-color: #f7f7f7;
+}
+li {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+    
+}
+
+h1 {
+
+    display: block;
+  
+    font-size: 40px;
+  
+    margin-top: 0.67em;
+  
+    margin-bottom: 0.67em;
+  
+    margin-left: 0;
+    line-height: 1.4;
+    margin-right: 0;
+  
+    font-weight: bold;
+  
+  }
+  
+h2 {
+
+    display: block;
+  
+    font-size: 1.5em;
+  
+    margin-top: 0.83em;
+  
+    margin-bottom: 0.83em;
+  
+    margin-left: 0;
+  
+    margin-right: 0;
+  
+    font-weight: bold;
+  
+  }
+  h3 {
+
+    display: block;
+  
+    font-size: 1.17em;
+  
+    margin-top: 1em;
+  
+    margin-bottom: 1em;
+  
+    margin-left: 0;
+  
+    margin-right: 0;
+  
+    font-weight: bold;
+  
+  }
+
+  p {
+
+    display: block;
+  
+    margin-top: 1em;
+  
+    margin-bottom: 1em;
+  
+    margin-left: 0;
+  
+    margin-right: 0;
+  
+  }
