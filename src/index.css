@@ -13,6 +13,8 @@
 body { 
     font-family: 'Chosunilbo_myungjo';
     margin: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
     background-color: #f7f7f7;
 }
 li {
