@@ -1,11 +1,11 @@
 import React, {component, useState} from 'react';
 
-function Header() {
+function HeaderFixed() {
     const date = new Date();
     const date1 = (date.toLocaleDateString('ko-kr'));
     return <>
     { 
-        <div className="w-full h-20 flex align-middle items-center text justify-between shadow-sm m-0 sticky text-center ">
+        <div className="sticky w-full h-10 flex align-middle items-center text justify-between shadow-sm m-0 ">
             <div className='text-[50px] text-center'>
                 HOSAN TIEMS
             </div>
@@ -22,4 +22,4 @@ function Header() {
     }
     </>
   }
-  export default Header;
+  export default HeaderFixed;
