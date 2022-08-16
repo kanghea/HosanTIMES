@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import Content from "./components/Content";
 import Header from './components/Header';
 import HeaderFixed from './components/HeaderFixed';
 import Mainpage from "./components/mainpage";

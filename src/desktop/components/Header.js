@@ -5,17 +5,19 @@ function Header() {
     const date1 = (date.toLocaleDateString('ko-kr'));
     return <>
     { 
-        <div className="w-full h-20 flex align-middle items-center text justify-between shadow-sm m-0 sticky text-center ">
-            <div className='text-[50px] text-center'>
-                HOSAN TIEMS
-            </div>
+        <div className="w-full h-20 flex align-middle items-center text justify-between border-b-2 m-0 sticky text-center ">
+            <a href='/'>
+                <div className='text-[50px] text-center'>
+                    HOSAN TIEMS
+                </div>
+            </a>
             <div>
                 <ol>
-                    <li className='px-2'>로그인</li>
-                    <li className='px-2'>회원가입</li>
-                    <li className='px-2'>글쓰기</li>
-                    <li className='px-2'>글수정하기</li>
-                    <li className='px-2'>검색하기</li>
+                    <li className='px-2 float-left'>메인페이지</li>
+                    <li className='px-2 float-left'>갤러리</li>
+                    <li className='px-2 float-left'>급식메뉴</li>
+                    <li className='px-2 float-left'>학사일정</li>
+                    <li className='px-2 float-left'>길찾기</li>
                 </ol>
             </div>
         </div>
