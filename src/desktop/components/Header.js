@@ -2,7 +2,6 @@ import React, {component, useState} from 'react';
 
 function Header() {
     const date = new Date();
-    const date1 = (date.toLocaleDateString('ko-kr'));
     return <>
     { 
         <div className="w-full h-20 flex align-middle items-center text justify-between border-b-2 m-0 sticky text-center ">
