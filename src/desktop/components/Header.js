@@ -7,7 +7,7 @@ function Header() {
         <div className="w-full h-20 flex align-middle items-center text justify-between border-b-2 m-0 sticky text-center ">
             <a href='/'>
                 <div className='text-[50px] text-center'>
-                    HOSAN TIEMS
+                    HOSAN TIMES
                 </div>
             </a>
             <div>
